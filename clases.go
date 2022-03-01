@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 //creamos la clase  empleados
-//hola
+//hola primer cambio
 type Empledo struct {
 	id     string
 	nombre string
