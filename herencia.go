@@ -35,6 +35,6 @@ func main() {
 	empleado1.nombres = "nombre"
 	empleado1.edad = 25
 	empleado1.id = 1
-	mensajePersona(empleado1)
+	mensajePersona(empleado1) //utilizacion de la interface
 	//fmt.Println("%v", empleado1)
 }
