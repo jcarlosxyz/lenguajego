@@ -16,7 +16,7 @@ type FultEmpleado struct {
 }
 
 func main() {
-
+	//cambio de 2 de marzo
 	fmt.Println("Progarma de herencia ")
 	empleado1 := FultEmpleado{}
 	empleado1.nombres = "nombre"
