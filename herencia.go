@@ -23,4 +23,7 @@ func main() {
 	empleado1.edad = 25
 	empleado1.id = 1
 	fmt.Println("%v", empleado1)
+
+	///diseño externo
+
 }
