@@ -35,6 +35,13 @@ func main() {
 	empleado1.nombres = "nombre"
 	empleado1.edad = 25
 	empleado1.id = 1
+<<<<<<< HEAD
 	mensajePersona(empleado1)
 	//fmt.Println("%v", empleado1)
+=======
+	fmt.Println("%v", empleado1)
+
+	///diseño externo
+
+>>>>>>> 773237abc98351ea8e30a955347526508b0e133a
 }
