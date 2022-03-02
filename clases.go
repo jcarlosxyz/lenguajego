@@ -9,7 +9,7 @@ type Empledo struct {
 	nombre string
 }
 
-//funcion para inicializar el objeto
+//funcion para inicializar el objeto 4 método
 func NuevoEmpleado(id string, nombre string) *Empledo {
 
 	return &Empledo{
@@ -35,5 +35,5 @@ func main() {
 	fmt.Print("%v\n", e2)
 	fmt.Println("\n---mostramos la clase metodo 4--------")
 	e4 := NuevoEmpleado("12", "juan")
-	fmt.Print("%v\n", e4)
+	fmt.Println("%v\n", e4)
 }
