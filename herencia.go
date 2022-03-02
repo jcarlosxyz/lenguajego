@@ -1,3 +1,4 @@
+//majeno de las interfaces
 package main
 
 import "fmt"
@@ -15,6 +16,18 @@ type FultEmpleado struct {
 	Empleado
 }
 
+func (fultEmpleado FultEmpleado) mensajePersona() string {
+	return "Este es un fultEmpleado"
+}
+
+type Informacio interface {
+	mensajePersona() string
+}
+
+func mensajePersona(p Informacio) {
+	fmt.Println(p.mensajePersona())
+}
+
 func main() {
 	//cambio de 2 de marzo
 	fmt.Println("Progarma de herencia ")
@@ -22,5 +35,6 @@ func main() {
 	empleado1.nombres = "nombre"
 	empleado1.edad = 25
 	empleado1.id = 1
-	fmt.Println("%v", empleado1)
+	mensajePersona(empleado1)
+	//fmt.Println("%v", empleado1)
 }
