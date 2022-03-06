@@ -28,6 +28,7 @@ func (fultEmpleado FultEmpleado) mensajePersona() string {
 }
 
 func (medioTiempoEmpleado MedioTiempoEmpleado) mensajePersona() string {
+	fmt.Println("Estoy en la funcion de medio empleado")
 	return "Este es un medio empleado"
 }
 
